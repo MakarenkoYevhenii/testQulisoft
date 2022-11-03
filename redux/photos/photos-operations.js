@@ -13,18 +13,6 @@ export const fetchPhotos = createAsyncThunk(
     }
   }
 );
-// export const fetchPhoto = createAsyncThunk(
-//   'photos/getPhoto',
-//   async (data, { rejectWithValue }) => {
-//     try {
-//       const result = await PhotoAPI.addContact(data);
-//       return result;
-//     } catch (error) {
-//       alert(`Sorry can't add new users ${error.message}`)
-//       return rejectWithValue(error);
-//     }
-//   }
-// );
 
 const operations = {
   fetchPhotos,
